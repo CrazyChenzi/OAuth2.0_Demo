@@ -28,6 +28,12 @@
 - 客户端应用程序（获取授权服务器的`Access Token`，并携带在请求中，请求资源服务器）
 - 授权服务器（生成`Access Token`）
 
+OAuth2.0客户端一共有4种授权模式
+- 授权码模式（authorization code)
+- 简化模式（implicit）
+- 密码模式（resource owner password credentials）
+- 客户端模式（client credentials）
+
 # Demo
 
 [OAuth2.0登陆Github](https://github.com/blacklisten/OAuth/tree/master/GithubOAuth2.0)
